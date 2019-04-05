@@ -11,8 +11,8 @@ namespace QQRobot
         {
             Console.WriteLine("运行中...");
             WebQQTools tool = new WebQQTools();
-            tool.id = "511294883";
-            tool.password = "991026jj";
+            tool.id = "";
+            tool.password = "";
 
             Console.WriteLine("Program：正在获取验证码");
             string verfiryCode = tool.checkVerifycode();
